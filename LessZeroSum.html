@@ -149,6 +149,8 @@ Error message and password prompt
 
 <li>$:/DefaultTiddlers</li>
 
+<li>$:/GitHub/Branch</li>
+
 <li>$:/GitHub/Filename</li>
 
 <li>$:/GitHub/Repo</li>
@@ -195,8 +197,6 @@ Error message and password prompt
 
 <li>Conversations</li>
 
-<li>Draft of 'ChatPage'</li>
-
 <li>Education Sucks Subpoints</li>
 
 <li>Extra Roam</li>
@@ -230,6 +230,8 @@ Error message and password prompt
 <li>Roam</li>
 
 <li>TranscludeLoopMacro</li>
+
+<li>TW Github Usage</li>
 
 </ul>
 </p>
@@ -10123,13 +10125,16 @@ GentzelsGoals
 GettingStarted
 </pre>
 </div>
-<div created="20210404225324068" modified="20210404225329804" title="$:/GitHub/Filename">
+<div created="20210405001104606" modified="20210405004055793" title="$:/GitHub/Branch">
+<pre>master</pre>
+</div>
+<div created="20210404225324068" modified="20210405004102207" title="$:/GitHub/Filename">
 <pre>LessZeroSum.html</pre>
 </div>
-<div created="20210404225305571" modified="20210404225308564" title="$:/GitHub/Repo">
+<div created="20210404225305571" modified="20210405004053345" title="$:/GitHub/Repo">
 <pre>spiracular/lesszerosum</pre>
 </div>
-<div created="20210404224035818" modified="20210404231058903" title="$:/GitHub/Username">
+<div created="20210404224035818" modified="20210405004047915" title="$:/GitHub/Username">
 <pre>taenidia</pre>
 </div>
 <div status="complete" title="$:/Import">
@@ -10354,14 +10359,14 @@ GettingStarted
 <div created="20210330005000646" modified="20210330005000646" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20210403214635215" modified="20210404235645696" title="$:/state/sidebar">
-<pre>no</pre>
+<div created="20210403214635215" modified="20210405000050960" title="$:/state/sidebar">
+<pre>yes</pre>
 </div>
-<div created="20210404224004069" modified="20210404233321609" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Plugins</pre>
+<div created="20210404224004069" modified="20210405000234255" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20210404224009658" modified="20210404232410533" title="$:/state/tab-2065006209">
-<pre>$:/core/ui/ControlPanel/Saving/General</pre>
+<div created="20210404224009658" modified="20210405001320267" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
 <div created="20210330002217014" modified="20210404235329720" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Recent</pre>
@@ -10369,7 +10374,7 @@ GettingStarted
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210404235331653" list="Roam [[Draft of 'ChatPage']] [[Front Page Presentation]] Highlights GentzelsGoals GettingStarted" modified="20210404235339652" title="$:/StoryList">
+<div created="20210405004040182" list="$:/ControlPanel ChatPage [[Front Page Presentation]] Highlights GentzelsGoals GettingStarted" modified="20210405004040182" title="$:/StoryList">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
@@ -10534,7 +10539,7 @@ Backlinks: &lt;$list filter='[&lt;currentTiddler&gt;backlinks[]butlast[]]'&gt;&l
         - War builds bigger stationary bandits with incentive to drive down internal violence to maximize their security/power
 </pre>
 </div>
-<div created="20210404232342046" modified="20210404233036684" tags="Metanotes" title="ChatPage">
+<div created="20210404232342046" modified="20210405001028681" tags="Metanotes" title="ChatPage">
 <pre>MKC: Hi! So this won't be updating while you've got it checked out... but it'll update if you refetch. That allows for a little bit of conversation.
 
 MKC: May make sense to just bookmark the link and redownload, occasionally?
@@ -10545,7 +10550,7 @@ MKC: Turns out linking TW to Github is actually pretty easy, although it's a gia
 
 !! To Do:
 
-* Eat Roam into this</pre>
+* Eat [[Roam]] into this</pre>
 </div>
 <div created="20210403214902705" modified="20210403215009912" tags="" title="Completion Metrics as Unit Test">
 <pre>! [[Completion Metrics as Unit Test]]
@@ -10585,19 +10590,6 @@ When things get chill, people often admit they aren't being rigorous, or that so
 * Difficulty finding a cluster of other people who are similarly oriented towards a problem-solving frame with big problem
 * 
 </pre>
-</div>
-<div created="20210404232342046" draft.of="ChatPage" draft.title="ChatPage" modified="20210404235713859" tags="Metanotes" title="Draft of 'ChatPage'">
-<pre>MKC: Hi! So this won't be updating while you've got it checked out... but it'll update if you refetch. That allows for a little bit of conversation.
-
-MKC: May make sense to just bookmark the link and redownload, occasionally?
-
-MKC: Oh, also I set it up to require manual saving now (ctrl-S)
-
-MKC: Turns out linking TW to Github is actually pretty easy, although it's a giant security vulnerability by default. Very public oauth token. (I made a specialized second account and gave it the relevant permissions, so I won't care.)
-
-!! To Do:
-
-* Eat [[Roam]] into this</pre>
 </div>
 <div created="20210401181052508" modified="20210401191132384" title="Education Sucks Subpoints">
 <pre>! Too many people go into non-concrete jobs like contracting
@@ -10826,22 +10818,8 @@ Main: [[Tiddlywiki Macro Snippets]]
 
 See also: [[Tiddlywiki Resources]], [[PETRAmacro]]</pre>
 </div>
-<div created="20210330001213493" modified="20210405000007137" tags="Metanotes" title="Front Page Presentation">
+<div created="20210330001213493" modified="20210405001032123" tags="Metanotes" title="Front Page Presentation">
 <pre>!! Quickstart
-
-To fetch on Github, do this...
-
-```
-git clone https://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@github.com/spiracular/LessZeroSum.git
-cd LessZeroSum
-```
-
-...and to reload from there...
-
-```
-git fetch --all
-git reset --hard origin/master
-```
 
 For navigating, check out the tabs beneath the &quot;~LessZeroSum&quot; header.
 
@@ -11111,6 +11089,45 @@ width:100%&quot;&gt;
 &lt;/$list&gt;
 
 \end</pre>
+</div>
+<div created="20210405000705246" modified="20210405001100167" tags="Metanotes" title="TW Github Usage">
+<pre>!!! Ordinary Github Usage
+
+To fetch from Github to computer for the first time, do this...
+
+```
+git clone https://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@github.com/spiracular/LessZeroSum.git
+cd LessZeroSum
+```
+
+...and to reload from there...
+
+`git pull`
+
+!!! Save to Personal Branch
+
+If you want to send it to a personal branch, modify bits in both TW and terminal. (Also requires manually initiating a branch, which I handled.)
+
+!!!! TW
+
+[[$:/ControlPanel]]
+
+TW: Control Panel/Saving/Github Saver
+
+set `branch` to `gentzel`
+
+!!!! Terminal
+
+`git checkout gentzel`
+
+!! To Overwrite Everything
+
+To overwrite local changes with the master branch
+
+```
+git fetch --all
+git reset --hard origin/master
+```</pre>
 </div>
 
 
